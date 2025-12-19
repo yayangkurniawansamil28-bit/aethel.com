@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>AETHEL | Beranda</title>
+
+    <!-- FONT LUXURY -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <h1 class="brand">AETHEL</h1>
+    <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="media.html">Audio & Video</a></li>
+        <li><a href="lokasi.html">Lokasi</a></li>
+        <li><a href="produk.html">Produk</a></li>
+    </ul>
+    <button class="mode-btn" onclick="toggleMode()">GOLD MODE</button>
+</nav>
+
+<section>
+    <h2>Audio & Video Produk</h2>
+
+    <h3>Audio Brand</h3>
+    <audio controls>
+        <source src="audio/audio-brand.mp3" type="audio/mpeg">
+    </audio>
+
+    <p class="penjelasan">
+Elemen audio digunakan untuk memperkuat identitas brand melalui suara atau musik latar.
+Kontrol audio memudahkan pengguna mengatur pemutaran.
+    </p>
+
+    <h3>Video Produk</h3>
+    <video controls width="520">
+        <source src="video/videpo-brand.mp4" type="video/mp4">
+    </video>
+
+    <p class="penjelasan">
+Video produk menampilkan detail aksesoris pria secara visual.
+Elemen ini membantu meningkatkan daya tarik dan kepercayaan pengguna.
+    </p>
+</section>
+
+<footer>
+    <p>© 2025 AETHEL</p>
+</footer>
+
+<script>
+function toggleMode() {
+    document.body.classList.toggle("gold-mode");
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>AETHEL | Beranda</title>
+
+    <!-- FONT LUXURY -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <h1 class="brand">AETHEL</h1>
+    <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="media.html">Audio & Video</a></li>
+        <li><a href="lokasi.html">Lokasi</a></li>
+        <li><a href="produk.html">Produk</a></li>
+    </ul>
+    <button class="mode-btn" onclick="toggleMode()">GOLD MODE</button>
+</nav>
+
+<section>
+    <h2>Lokasi & Media Promosi</h2>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cRLhQRaxGj8?si=8Vk9MwkmzxC2raNN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p class="penjelasan">
+Iframe digunakan untuk menampilkan konten dari situs lain seperti video promosi.
+Elemen ini membuat halaman lebih interaktif dan informatif.
+    </p>
+</section>
+
+<footer>
+    <p>© 2025 AETHEL</p>
+</footer>
+
+<script>
+function toggleMode() {
+    document.body.classList.toggle("gold-mode");
+}
+</script>
+
+</body>
+</html>
